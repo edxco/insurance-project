@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap');
+
+@mixin regular-font($property, $align) {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: $property;
+    text-align: $align;
+}

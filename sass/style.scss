@@ -1,0 +1,130 @@
+@import "colors";
+@import "font";
+
+// --- Global
+body {
+    @include regular-font(400, left);
+    color: $grey;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.space_line {
+    line-height: .9em;
+}
+
+// --- Color
+.one {
+    color: $one;
+}
+
+.two {
+    color: $two;
+}
+
+.three {
+    color: $three;
+}
+
+.grey2 {
+    color: $grey2
+}
+
+.bg_two {
+    background-color: $two;
+}
+
+// --- Nav
+.logo {
+    height: 60px;
+}
+
+.nav_text {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+// --- Servicios menu
+#section_services {
+    background-image: url("../img/bg_aseguracc.jpg");
+}
+
+.border_text {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.border_text:before {
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    height: 1px;
+    width: 50%;
+    /* or 100px */
+    border-bottom: 2px solid $three;
+
+    @media (min-width: 768px) {
+        left: 0;
+        width: 30%;
+    }
+}
+
+.services_img {
+    height: 110px;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        height: 95px;
+    }
+
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+}
+
+.services_menu {
+
+    width: 95%;
+
+    @media (min-width: 768px) {
+        width: 95%;
+    }
+
+    .boton {
+        height: 220px;
+        cursor: pointer;
+
+        @media (min-width: 768px) {
+            height: 160px;
+        }
+    }
+
+    .boton:hover {
+        background-color: $three;
+    }
+
+    .text_title {
+        @include regular-font(700, center);
+        font-size: 18px;
+        color: #fff;
+    }
+
+
+}
+
+.btn_contact {
+    @include regular-font(700, left);
+    color: $one;
+    background-color: $four;
+    width: 85%;
+    text-align: center;
+}
+
+.btn_contact:hover {
+    background-color: $two;
+}

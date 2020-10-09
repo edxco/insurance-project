@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap");
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  color: #555;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.space_line {
+  line-height: 0.9em;
+}
+
+.one {
+  color: #fff;
+}
+
+.two {
+  color: #1E9AAE;
+}
+
+.three {
+  color: #084553;
+}
+
+.grey2 {
+  color: #ddd;
+}
+
+.bg_two {
+  background-color: #1E9AAE;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav_text {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#section_services {
+  background-image: url("../img/bg_aseguracc.jpg");
+}
+
+.border_text {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.border_text:before {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  height: 1px;
+  width: 50%;
+  /* or 100px */
+  border-bottom: 2px solid #084553;
+}
+@media (min-width: 768px) {
+  .border_text:before {
+    left: 0;
+    width: 30%;
+  }
+}
+
+.services_img {
+  height: 110px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .services_img {
+    height: 95px;
+  }
+}
+
+.services_menu {
+  width: 95%;
+}
+@media (min-width: 768px) {
+  .services_menu {
+    width: 95%;
+  }
+}
+.services_menu .boton {
+  height: 220px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .services_menu .boton {
+    height: 160px;
+  }
+}
+.services_menu .boton:hover {
+  background-color: #084553;
+}
+.services_menu .text_title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.btn_contact {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  color: #fff;
+  background-color: #31BED7;
+  width: 85%;
+  text-align: center;
+}
+
+.btn_contact:hover {
+  background-color: #1E9AAE;
+}
+
+/*# sourceMappingURL=style.css.map */
