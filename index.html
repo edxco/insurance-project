@@ -12,8 +12,31 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
+    <header class="sticky-top bg-white">
+        <div class="bg-dark text-white">
+            <div class="container">
+                <div class="row m-0 p-0 d-flex justify-content-end">
+                    <div class="col-3">
+                        <ul class="navbar-nav d-flex flex-row justify-content-center px-3">
+                            <li class="mx-2">
+                                <a href="http://facebook.com"><i class="fab fa-facebook-f fa-sm text-white"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto px-2 text-right">
+                        <a href="#" class="text-white">
+                            <small><i class="fas fa-mobile-alt"></i> 993 318 0483</small>
+                        </a>
+                    </div>
+                    <div class="col-auto px-2 text-right">
+                        <a href="#" class="text-white">
+                            <small><i class="fas fa-mobile-alt"></i> 442 747 5600</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xl">
             <nav class="navbar navbar-expand-md d-flex nav-h align-items-center m-0 p-0 navbar-light">
                 <!-- LOGO -->
                 <a class="navbar-brand" href="index.html">
@@ -27,159 +50,144 @@
                 <!-- NAVBAR MAIN MENU-->
                 <div class="collapse navbar-collapse flex-row-reverse" id="navbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link nav-text" href="about.html">About <span
-                                    class="sr-only">(current)</span></a>
+                        <li class="nav-item nav_text">
+                            <a class="nav-link" href="about.html"><span class="two">About</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav_text" href="#">
-                                Program
+                                Asegura CC
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav_text" href="join.html">
-                                Join
+                                Parejas
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav_text" href="#">
-                                Sponsor
+                                Empresarios
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav_text" href="#">
-                                News
+                                Empleados
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_text" href="#">
+                                Jovenes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_text" href="#">
+                                Contacto
                             </a>
                         </li>
                     </ul>
-                    <a href="#" class="btn btn-lg text-white py-lg-0 font-weight-bold join-us">JOIN US</a>
                 </div>
             </nav>
         </div>
     </header>
     <section id="section_services">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 text-center text-md-left">
-                    <h1 class="three mb-0 mt-4">
-                        <span class="two">Asesores</span> financieros
+            <div class="row ">
+                <div class="col-12 bg_slide text-center text-md-left">
+                    <h1 class="font-weight-bold let_space h1_slide text-white slide_titles user-select-none">
+                        Protegemos lo<br>
+                        que más importa
                     </h1>
-                    <h4 class="border_text">Protección en todo momento</h4>
-                    <p>Más de 600 personas respaldadas por nuestros soluciones diversas.</p>
-                    <div class="d-none d-md-block mt-5">
-                        <p>
-                            <button type="button" class="btn btn_contact btn_block"><i class="fab fa-whatsapp"></i>
-                                Envia un mensaje</button>
-                        </p>
-                        <p>
-                            <button type="button" class="btn btn_contact btn_block" data-toggle="modal"
-                                data-target="#contact_form"><i class="far fa-file-alt"></i>
-                                Deja
-                                tus datos</button>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="row services_menu m-0 p-0 mx-auto">
-                        <div class="col-12 d-flex flex-row flex-md-column p-0">
-                            <a href="#"
-                                class="col col-md-12 boton bg_two d-flex flex-md-row flex-column mr-1 mb-1 mt-md-1">
-                                <div class="text-center mt-5 align-self-center mt-md-0">
-                                    <img src="img/servicios-4.png" class="services_img" alt="">
-                                </div>
-                                <div class="d-flex flex-column align-self-center ml-md-4">
-                                    <div class="text_title mt-3 text-left">
-                                        VIDA
-                                    </div>
-                                    <div class="d-none d-md-block text-white">
-                                        <p class="space_line">Protegete a ti y tus seres
-                                            queridos en caso de fallecimiento o invalidez
-                                        </p>
-                                        <p class="mt-1">
-                                            <i class="fas fa-caret-square-right fa-sm grey2"></i>
-                                            <span class="grey2">Solicita más información</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#" class="col-6 col-md-12 boton bg_two d-flex flex-md-row flex-column mb-1">
-                                <div class="text-center mt-5 align-self-center mt-md-0">
-                                    <img src="img/servicios-3.png" class="services_img" alt="">
-                                </div>
-                                <div class="d-flex flex-column align-self-center ml-md-4">
-                                    <div class="text_title mt-3 text-left">
-                                        GASTOS MÉDICOS
-                                    </div>
-                                    <div class="d-none d-md-block text-white">
-                                        <p class="space_line">Asesoría para proteger a tu familia mediante el
-                                            respaldo de un seguro
-                                        </p>
-                                        <p class="mt-1">
-                                            <i class="fas fa-caret-square-right fa-sm grey2"></i>
-                                            <span class="grey2">Solicita más información</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-12 d-flex flex-row flex-md-column p-0">
-                            <a href="#"
-                                class="col col-md-12 boton bg_two d-flex flex-md-row flex-column mr-1 mb-1 mt-md-0">
-                                <div class="text-center mt-5 align-self-center mt-md-0">
-                                    <img src="img/servicios-2.png" class="services_img" alt="">
-                                </div>
-                                <div class="d-flex flex-column align-self-center ml-md-4">
-                                    <div class="text_title mt-3 text-left">
-                                        AHORRO
-                                    </div>
-                                    <div class="d-none d-md-block text-white">
-                                        <p class="space_line">Herramientas flexibles para incrementar tu patrimonio.
-                                        </p>
-                                        <p class="mt-1">
-                                            <i class="fas fa-caret-square-right fa-sm grey2"></i>
-                                            <span class="grey2">Solicita más información</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#" class="col-6 col-md-12 boton bg_two d-flex flex-md-row flex-column mb-1">
-                                <div class="text-center mt-5 align-self-center mt-md-0">
-                                    <img src="img/servicios-1.png" class="services_img" alt="">
-                                </div>
-                                <div class="d-flex flex-column align-self-center ml-md-4">
-                                    <div class="text_title mt-3 text-left">
-                                        ESPECIALIZADO
-                                    </div>
-                                    <div class="d-none d-md-block text-white">
-                                        <p class="space_line">Programas diseñados para empresas familiares ó
-                                            emprendedores.
-                                        </p>
-                                        <p class="mt-1">
-                                            <i class="fas fa-caret-square-right fa-sm grey2"></i>
-                                            <span class="grey2">Solicita más información</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-12 bg-light mt-1 pb-2 pt-4 text-center d-md-none">
-                            <p>
-                                <button type="button" class="btn btn_contact btn_block"><i class="fab fa-whatsapp"></i>
-                                    Envia un mensaje</button>
-                            </p>
-                            <p>
-                                <button type="button" class="btn btn_contact btn_block" data-toggle="modal"
-                                    data-target="#contact_form"><i class="far fa-file-alt"></i>
-                                    Deja
-                                    tus datos</button>
-                            </p>
-                            <p>Si requieres una asesoria gratuita</p>
-                        </div>
-                    </div>
+                    <h4 class="three regular_font text-center text-md-left user-select-none slide_description">
+                        Soluciones para proteger tu
+                        salud y finanzas<br>
+                        a presente y futuro</h4>
+
+                    <button type="button" class="btn rounded-pill btn_contact my-2"><i class="fab fa-whatsapp"></i>
+                        Asesoría Gratuita</button><br>
+
+                    <button type="button" class="btn rounded-pill btn_contact my-2" data-toggle="modal"
+                        data-target="#contact_form"><i class="fas fa-angle-double-right"></i>
+                        Conoce más</button>
+
                 </div>
             </div>
         </div>
     </section>
+
+    <main id="services" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-m text-center font-weight-bold">
+                    Tenemos el gusto de ayudar a personas y empresas con productos que generan bienestar.
+                </div>
+            </div>
+            <a href="#" class="row mt-5 mx-2 card-cc">
+                <div class="col-12 col-md-4 card-cc-img p-0 m-0 test">
+                    <img src="img/serv-1.jpg" class="rounded-left">
+                </div>
+                <div class="col-12 col-md-8 bg-light rounded-right d-flex align-items-center card-cc-text">
+                    <div class="ml-3 ">
+                        <p class="title m-0">Parejas Jovenes</p>
+                        <p class="description m-0 pt-2">Asesoría para tener un plan que respalde la seguridad de sus
+                            integrantes</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="row mt-5 mx-2 card-cc">
+                <div class="col-12 col-md-4 card-cc-img p-0 m-0 test">
+                    <img src="img/serv-2.jpg" class="rounded-left">
+                </div>
+                <div class="col-12 col-md-8 bg-light rounded-right d-flex align-items-center card-cc-text">
+                    <div class="ml-3 ">
+                        <p class="title m-0 let_space">Empresarios ó emprendedores</p>
+                        <p class="description m-0 pt-2">Garantiza tu futuro y lleva tu negocio a la siguiente
+                            generación.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="row mt-5 mx-2 card-cc">
+                <div class="col-12 col-md-4 card-cc-img p-0 m-0 test">
+                    <img src="img/serv-3.jpg" class="rounded-left">
+                </div>
+                <div class="col-12 col-md-8 bg-light rounded-right d-flex align-items-center card-cc-text">
+                    <div class="ml-3 ">
+                        <p class="title m-0">Empleados</p>
+                        <p class="description m-0 pt-2">Instrumentos para garantizar un retiro digno, cobertura de salud
+                            y finanzas saludables.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="row mt-5 mx-2 card-cc">
+                <div class="col-12 col-md-4 card-cc-img p-0 m-0 test">
+                    <img src="img/serv-4.jpg" class="rounded-left">
+                </div>
+                <div class="col-12 col-md-8 bg-light rounded-right d-flex align-items-center card-cc-text">
+                    <div class="ml-3 ">
+                        <p class="title m-0">Jovenes Solteros</p>
+                        <p class="description m-0 pt-2">Asesoría para optimizar tu dinero, proteger tu salud y opciones
+                            de ahorro.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 ">
+                    <img src="img/aseguracc.png" class="logo mb-md-3" alt="Asegura CC">
+                    <button type="button" class="btn rounded-pill btn_contact my-2">
+                        <i class="fab fa-whatsapp"></i>¿Dudas? Contactanos</button><br>
+                </div>
+                <div class="col-8">
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Modal -->
     <div class="modal fade" id="contact_form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
